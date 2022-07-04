@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Inspection Details",
+    "desc": "InspectionDetails",
+    "items": [
+      {
+        "id": 1,
+        "options": [],
+        "type": "dateTimeInput",
+        "label": "First Contact"
+      },
+      {
+        "id": 2,
+        "options": [],
+        "type": "dateTimeInput",
+        "label": "Appointment"
+      },
+      { "id": 3, "options": [], "type": "dateTimeInput", "label": "Inspected" }
+    ]
+  },
+  {
+    "title": "Inspection Start ",
+    "desc": "InspectionStart",
+    "items": [
+      {
+        "id": 1,
+        "options": ["Initial ", "Subsequent"],
+        "type": "picker",
+        "label": "Initial or Subsequent Inspection"
+      },
+      {
+        "id": 2,
+        "options": [
+          "No One Present",
+          "Homeowner",
+          "Homeowner's Representive",
+          "Contractor"
+        ],
+        "type": "radio",
+        "label": "Who Is In Attendance At The Inspection?"
+      },
+      {
+        "id": 3,
+        "options": [],
+        "type": "switch",
+        "label": "Is the Homeowner Represented By An Attorney Or PA?"
+      },
+      {
+        "id": 4,
+        "options": [],
+        "type": "switch",
+        "label": "Are There Any Interior Damages Related To This Storm?"
+      },
+      {
+        "id": 5,
+        "options": [],
+        "type": "switch",
+        "label": "Skip The Inspection In This App?"
+      }
+    ]
+  }
+]
